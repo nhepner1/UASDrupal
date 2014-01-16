@@ -41,6 +41,7 @@ dependencies[] = date_repeat
 dependencies[] = date_repeat_field
 dependencies[] = date_views
 dependencies[] = date_all_day
+dependencies[] = uuid
 
 ; Development modules (remove before final version)
 dependencies[] = views_ui
