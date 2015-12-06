@@ -42,6 +42,11 @@ $ColumnBottomWidth ='"four columns"';
 	<?php print render($page['content']); ?>
     </div>
    <?php else: ?>
+      <?php if($tabs): ?>
+        <div class="tabs">
+          <?php print render($tabs); ?>
+        </div>
+      <?php endif; ?>
       <?php print render($page['content']); ?>
    <?php endif; ?>
   </div>
