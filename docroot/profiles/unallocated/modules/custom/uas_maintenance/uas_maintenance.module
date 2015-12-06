@@ -17,12 +17,12 @@ function uas_maintenance_views_default_views_alter(&$views) {
 function uas_menu_block_blocks() {
   // The array key is the block delta used by menu block.
   return array(
-    'primary_navigation-1' => array(
+    'uas-primary-navigation' => array(
       'menu_name'   => 'main-menu',
       'parent_mlid' => 0,
       'title_link'  => 0,
-      'admin_title' => 'Primary Navigation',
-      'level'       => 2,
+      'admin_title' => 'UAS Primary Navigation',
+      'level'       => 1,
       'follow'      => 0,
       'depth'       => 1,
       'expanded'    => 0,
@@ -30,3 +30,4 @@ function uas_menu_block_blocks() {
     ),
   );
 }
+/**/
